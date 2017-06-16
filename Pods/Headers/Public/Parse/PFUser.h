@@ -1,0 +1,5 @@
+XSym
+0047
+8f5b7b24fd41cd7b4fbba04cc4dfb490
+../../../Parse/Parse.framework/Headers/PFUser.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

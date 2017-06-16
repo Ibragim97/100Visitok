@@ -1,0 +1,48 @@
+
+/* Class = "IBUIBarButtonItem"; title = "Item"; ObjectID = "72R-2L-Vc1"; */
+"72R-2L-Vc1.title" = "Item";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "AaM-dF-csw"; */
+"AaM-dF-csw.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "BwQ-eZ-Sx4"; */
+"BwQ-eZ-Sx4.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "Создать визитку"; ObjectID = "Efb-8Y-4oP"; */
+"Efb-8Y-4oP.text" = "Создать визитку";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "FE5-Cx-JNV"; */
+"FE5-Cx-JNV.normalTitle" = "Button";
+
+/* Class = "IBUIBarButtonItem"; title = "Отправить"; ObjectID = "GVl-GA-yyA"; */
+"GVl-GA-yyA.title" = "Отправить";
+
+/* Class = "IBUILabel"; text = "Обратная связь"; ObjectID = "Hts-Ba-45Z"; */
+"Hts-Ba-45Z.text" = "Обратная связь";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "JNM-tk-FbE"; */
+"JNM-tk-FbE.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "Продолжить"; ObjectID = "ZiB-fi-eNy"; */
+"ZiB-fi-eNy.text" = "Продолжить";
+
+/* Class = "IBUILabel"; text = "Заказать"; ObjectID = "a30-gT-mVb"; */
+"a30-gT-mVb.text" = "Заказать";
+
+/* Class = "IBUILabel"; text = "Редактировать данные"; ObjectID = "fTu-b5-Bsd"; */
+"fTu-b5-Bsd.text" = "Редактировать данные";
+
+/* Class = "IBUILabel"; text = "100 Visitok"; ObjectID = "gyH-R5-FaP"; */
+"gyH-R5-FaP.text" = "100 Visitok";
+
+/* Class = "IBUILabel"; text = "Введите ваше полное имя"; ObjectID = "lQ8-zs-a0W"; */
+"lQ8-zs-a0W.text" = "Введите ваше полное имя";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "nZy-3x-Fdg"; */
+"nZy-3x-Fdg.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "Обратная связь"; ObjectID = "rhB-1F-jw9"; */
+"rhB-1F-jw9.text" = "Обратная связь";
+
+/* Class = "IBUILabel"; text = "Давайте начнем"; ObjectID = "uFE-nH-yBZ"; */
+"uFE-nH-yBZ.text" = "Давайте начнем";

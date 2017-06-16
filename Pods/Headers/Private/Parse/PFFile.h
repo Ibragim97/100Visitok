@@ -1,0 +1,5 @@
+XSym
+0047
+258c4c50d9d4a92d2a96c7059f6bf3b7
+../../../Parse/Parse.framework/Headers/PFFile.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

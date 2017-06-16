@@ -1,0 +1,5 @@
+XSym
+0048
+1f93b60478e947dbbed18ea70e7a88e2
+../../../Parse/Parse.framework/Headers/PFQuery.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

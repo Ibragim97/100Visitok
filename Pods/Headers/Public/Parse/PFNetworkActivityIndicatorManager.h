@@ -1,0 +1,5 @@
+XSym
+0074
+a1ebfd60c9426ee16ce744a1446afc2d
+../../../Parse/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

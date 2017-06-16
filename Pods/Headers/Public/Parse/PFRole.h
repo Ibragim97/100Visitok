@@ -1,0 +1,5 @@
+XSym
+0047
+93ded1e3caded92bb433e66b9d5a8717
+../../../Parse/Parse.framework/Headers/PFRole.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		375B18906B9FD568188F5EE1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3C2F60B422FCCC5F8D6E73 /* libPods.a */; };
+		CE27F3EE1B464A1D009AF38B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27F3ED1B464A1D009AF38B /* main.m */; };
+		CE27F3F11B464A1D009AF38B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27F3F01B464A1D009AF38B /* AppDelegate.m */; };
+		CE27F3F41B464A1D009AF38B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27F3F31B464A1D009AF38B /* ViewController.m */; };
+		CE27F3F91B464A1D009AF38B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE27F3F81B464A1D009AF38B /* Images.xcassets */; };
+		CE27F3FC1B464A1D009AF38B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27F3FA1B464A1D009AF38B /* LaunchScreen.xib */; };
+		CE27F4081B464A1D009AF38B /* My_projectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27F4071B464A1D009AF38B /* My_projectTests.m */; };
+		CE48701C1B4AA93800C5D0C6 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE48701B1B4AA93800C5D0C6 /* MenuViewController.m */; };
+		CE8F5A551B4D25CA008D8A52 /* MySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F5A541B4D25CA008D8A52 /* MySingleton.m */; };
+		CEA71BB21B6644D1007B7046 /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA71BB11B6644D1007B7046 /* CardsViewController.m */; };
+		CEA71BB51B666469007B7046 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA71BB41B666469007B7046 /* OrderViewController.m */; };
+		CEA95D891B5FB6E100A3F187 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA95D881B5FB6E100A3F187 /* MainMenuViewController.m */; };
+		CEAA61CB1B4E9F6F00B9DC73 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAA61C91B4E9F6F00B9DC73 /* Fabric.framework */; };
+		CEAA61CC1B4E9F6F00B9DC73 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAA61CA1B4E9F6F00B9DC73 /* Crashlytics.framework */; };
+		CEAF9B711B69FD980087531B /* DIN.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B701B69FD980087531B /* DIN.ttf */; };
+		CEAF9B871B69FDF00087531B /* CONTRIBUTING.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B731B69FDEF0087531B /* CONTRIBUTING.txt */; };
+		CEAF9B881B69FDF00087531B /* copyright.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B741B69FDEF0087531B /* copyright.txt */; };
+		CEAF9B891B69FDF00087531B /* FONTLOG.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B751B69FDEF0087531B /* FONTLOG.txt */; };
+		CEAF9B8A1B69FDF00087531B /* LICENCE-FAQ.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B761B69FDEF0087531B /* LICENCE-FAQ.txt */; };
+		CEAF9B8B1B69FDF00087531B /* LICENCE.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B771B69FDEF0087531B /* LICENCE.txt */; };
+		CEAF9B8C1B69FDF00087531B /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B781B69FDEF0087531B /* README.txt */; };
+		CEAF9B8D1B69FDF00087531B /* TRADEMARKS.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B791B69FDEF0087531B /* TRADEMARKS.txt */; };
+		CEAF9B8E1B69FDF00087531B /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B7A1B69FDEF0087531B /* Ubuntu-B.ttf */; };
+		CEAF9B8F1B69FDF00087531B /* Ubuntu-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B7B1B69FDEF0087531B /* Ubuntu-BI.ttf */; };
+		CEAF9B901B69FDF00087531B /* Ubuntu-C.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B7C1B69FDEF0087531B /* Ubuntu-C.ttf */; };
+		CEAF9B911B69FDF00087531B /* Ubuntu-L.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B7D1B69FDEF0087531B /* Ubuntu-L.ttf */; };
+		CEAF9B921B69FDF00087531B /* Ubuntu-LI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B7E1B69FDEF0087531B /* Ubuntu-LI.ttf */; };
+		CEAF9B931B69FDF00087531B /* Ubuntu-M.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B7F1B69FDEF0087531B /* Ubuntu-M.ttf */; };
+		CEAF9B941B69FDF00087531B /* Ubuntu-MI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B801B69FDEF0087531B /* Ubuntu-MI.ttf */; };
+		CEAF9B951B69FDF00087531B /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B811B69FDF00087531B /* Ubuntu-R.ttf */; };
+		CEAF9B961B69FDF00087531B /* Ubuntu-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B821B69FDF00087531B /* Ubuntu-RI.ttf */; };
+		CEAF9B971B69FDF00087531B /* UbuntuMono-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B831B69FDF00087531B /* UbuntuMono-B.ttf */; };
+		CEAF9B981B69FDF00087531B /* UbuntuMono-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B841B69FDF00087531B /* UbuntuMono-BI.ttf */; };
+		CEAF9B991B69FDF00087531B /* UbuntuMono-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B851B69FDF00087531B /* UbuntuMono-R.ttf */; };
+		CEAF9B9A1B69FDF00087531B /* UbuntuMono-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B861B69FDF00087531B /* UbuntuMono-RI.ttf */; };
+		CEAF9BA21B6A158E0087531B /* AppleGaramond-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B9C1B6A158E0087531B /* AppleGaramond-Bold.ttf */; };
+		CEAF9BA31B6A158E0087531B /* AppleGaramond-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B9D1B6A158E0087531B /* AppleGaramond-BoldItalic.ttf */; };
+		CEAF9BA41B6A158E0087531B /* AppleGaramond-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B9E1B6A158E0087531B /* AppleGaramond-Italic.ttf */; };
+		CEAF9BA51B6A158E0087531B /* AppleGaramond-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9B9F1B6A158E0087531B /* AppleGaramond-Light.ttf */; };
+		CEAF9BA61B6A158E0087531B /* AppleGaramond-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9BA01B6A158E0087531B /* AppleGaramond-LightItalic.ttf */; };
+		CEAF9BA71B6A158E0087531B /* AppleGaramond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9BA11B6A158E0087531B /* AppleGaramond.ttf */; };
+		CEAF9BA91B6A19FE0087531B /* caslon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9BA81B6A19FE0087531B /* caslon.ttf */; };
+		CEAF9BAB1B6A1BFF0087531B /* Adobe Caslon Italic Swash.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9BAA1B6A1BFF0087531B /* Adobe Caslon Italic Swash.ttf */; };
+		CEAF9BAE1B6A48BA0087531B /* Bookos.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9BAC1B6A48BA0087531B /* Bookos.ttf */; };
+		CEAF9BAF1B6A48BA0087531B /* Grande Oldstyle.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEAF9BAD1B6A48BA0087531B /* Grande Oldstyle.ttf */; };
+		CEB5615B1B6899D500FEBA6F /* MakeImagesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5615A1B6899D500FEBA6F /* MakeImagesManager.m */; };
+		CEB8C67B1B6B4E1600C12F0E /* Nautilus.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEB8C67A1B6B4E1600C12F0E /* Nautilus.otf */; };
+		CEB8C67D1B6B51B600C12F0E /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB8C67C1B6B51B600C12F0E /* Lato-Regular.ttf */; };
+		CEB8C6801B6B52FE00C12F0E /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB8C67F1B6B52FE00C12F0E /* Lato-Light.ttf */; };
+		CEB8C6821B6B537400C12F0E /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB8C6811B6B537400C12F0E /* Lato-MediumItalic.ttf */; };
+		CEB8C6841B6B846500C12F0E /* metapro-normal.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEB8C6831B6B846500C12F0E /* metapro-normal.otf */; };
+		CEC524A51B4FD5CF005A3F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC524A31B4FD5CF005A3F72 /* Main.storyboard */; };
+		CECDA5A11B6250DE00DF109C /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDA5A01B6250DE00DF109C /* EditViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE27F4021B464A1D009AF38B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE27F3E01B464A1D009AF38B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE27F3E71B464A1D009AF38B;
+			remoteInfo = "My project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40ACE044150C9E8118037281 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CA3C2F60B422FCCC5F8D6E73 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE27F3E81B464A1D009AF38B /* My project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE27F3EC1B464A1D009AF38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE27F3ED1B464A1D009AF38B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE27F3EF1B464A1D009AF38B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE27F3F01B464A1D009AF38B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE27F3F21B464A1D009AF38B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE27F3F31B464A1D009AF38B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE27F3F81B464A1D009AF38B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE27F3FB1B464A1D009AF38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CE27F4011B464A1D009AF38B /* My projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My projectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE27F4061B464A1D009AF38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE27F4071B464A1D009AF38B /* My_projectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_projectTests.m; sourceTree = "<group>"; };
+		CE48701A1B4AA93800C5D0C6 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		CE48701B1B4AA93800C5D0C6 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		CE8F5A531B4D25CA008D8A52 /* MySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySingleton.h; path = ../MySingleton.h; sourceTree = "<group>"; };
+		CE8F5A541B4D25CA008D8A52 /* MySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySingleton.m; path = ../MySingleton.m; sourceTree = "<group>"; };
+		CEA71BB01B6644D1007B7046 /* CardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsViewController.h; sourceTree = "<group>"; };
+		CEA71BB11B6644D1007B7046 /* CardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsViewController.m; sourceTree = "<group>"; };
+		CEA71BB31B666469007B7046 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		CEA71BB41B666469007B7046 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		CEA95D871B5FB6E100A3F187 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		CEA95D881B5FB6E100A3F187 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		CEAA61C91B4E9F6F00B9DC73 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		CEAA61CA1B4E9F6F00B9DC73 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		CEAF9B701B69FD980087531B /* DIN.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = DIN.ttf; path = Fonts/DIN.ttf; sourceTree = SOURCE_ROOT; };
+		CEAF9B731B69FDEF0087531B /* CONTRIBUTING.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTING.txt; sourceTree = "<group>"; };
+		CEAF9B741B69FDEF0087531B /* copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = copyright.txt; sourceTree = "<group>"; };
+		CEAF9B751B69FDEF0087531B /* FONTLOG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FONTLOG.txt; sourceTree = "<group>"; };
+		CEAF9B761B69FDEF0087531B /* LICENCE-FAQ.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENCE-FAQ.txt"; sourceTree = "<group>"; };
+		CEAF9B771B69FDEF0087531B /* LICENCE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE.txt; sourceTree = "<group>"; };
+		CEAF9B781B69FDEF0087531B /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		CEAF9B791B69FDEF0087531B /* TRADEMARKS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TRADEMARKS.txt; sourceTree = "<group>"; };
+		CEAF9B7A1B69FDEF0087531B /* Ubuntu-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-B.ttf"; sourceTree = "<group>"; };
+		CEAF9B7B1B69FDEF0087531B /* Ubuntu-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BI.ttf"; sourceTree = "<group>"; };
+		CEAF9B7C1B69FDEF0087531B /* Ubuntu-C.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-C.ttf"; sourceTree = "<group>"; };
+		CEAF9B7D1B69FDEF0087531B /* Ubuntu-L.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-L.ttf"; sourceTree = "<group>"; };
+		CEAF9B7E1B69FDEF0087531B /* Ubuntu-LI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LI.ttf"; sourceTree = "<group>"; };
+		CEAF9B7F1B69FDEF0087531B /* Ubuntu-M.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-M.ttf"; sourceTree = "<group>"; };
+		CEAF9B801B69FDEF0087531B /* Ubuntu-MI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MI.ttf"; sourceTree = "<group>"; };
+		CEAF9B811B69FDF00087531B /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		CEAF9B821B69FDF00087531B /* Ubuntu-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-RI.ttf"; sourceTree = "<group>"; };
+		CEAF9B831B69FDF00087531B /* UbuntuMono-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-B.ttf"; sourceTree = "<group>"; };
+		CEAF9B841B69FDF00087531B /* UbuntuMono-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-BI.ttf"; sourceTree = "<group>"; };
+		CEAF9B851B69FDF00087531B /* UbuntuMono-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-R.ttf"; sourceTree = "<group>"; };
+		CEAF9B861B69FDF00087531B /* UbuntuMono-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-RI.ttf"; sourceTree = "<group>"; };
+		CEAF9B9C1B6A158E0087531B /* AppleGaramond-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AppleGaramond-Bold.ttf"; sourceTree = "<group>"; };
+		CEAF9B9D1B6A158E0087531B /* AppleGaramond-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AppleGaramond-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CEAF9B9E1B6A158E0087531B /* AppleGaramond-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AppleGaramond-Italic.ttf"; sourceTree = "<group>"; };
+		CEAF9B9F1B6A158E0087531B /* AppleGaramond-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AppleGaramond-Light.ttf"; sourceTree = "<group>"; };
+		CEAF9BA01B6A158E0087531B /* AppleGaramond-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AppleGaramond-LightItalic.ttf"; sourceTree = "<group>"; };
+		CEAF9BA11B6A158E0087531B /* AppleGaramond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleGaramond.ttf; sourceTree = "<group>"; };
+		CEAF9BA81B6A19FE0087531B /* caslon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = caslon.ttf; path = Fonts/caslon.ttf; sourceTree = SOURCE_ROOT; };
+		CEAF9BAA1B6A1BFF0087531B /* Adobe Caslon Italic Swash.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Adobe Caslon Italic Swash.ttf"; path = "Fonts/Adobe Caslon Italic Swash.ttf"; sourceTree = SOURCE_ROOT; };
+		CEAF9BAC1B6A48BA0087531B /* Bookos.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bookos.ttf; path = Fonts/Bookos.ttf; sourceTree = SOURCE_ROOT; };
+		CEAF9BAD1B6A48BA0087531B /* Grande Oldstyle.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Grande Oldstyle.ttf"; path = "Fonts/Grande Oldstyle.ttf"; sourceTree = SOURCE_ROOT; };
+		CEB561591B6899D500FEBA6F /* MakeImagesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeImagesManager.h; sourceTree = "<group>"; };
+		CEB5615A1B6899D500FEBA6F /* MakeImagesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeImagesManager.m; sourceTree = "<group>"; };
+		CEB8C67A1B6B4E1600C12F0E /* Nautilus.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Nautilus.otf; path = Fonts/nautilus/Nautilus.otf; sourceTree = SOURCE_ROOT; };
+		CEB8C67C1B6B51B600C12F0E /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "Fonts/Lato2OFL/Lato-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		CEB8C67F1B6B52FE00C12F0E /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "Fonts/Lato2OFL/Lato-Light.ttf"; sourceTree = SOURCE_ROOT; };
+		CEB8C6811B6B537400C12F0E /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-MediumItalic.ttf"; path = "Fonts/Lato2OFL/Lato-MediumItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		CEB8C6831B6B846500C12F0E /* metapro-normal.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "metapro-normal.otf"; path = "Fonts/metapro-normal.otf"; sourceTree = SOURCE_ROOT; };
+		CEC524A41B4FD5CF005A3F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEC524A81B4FD99D005A3F72 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CECDA59F1B6250DE00DF109C /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		CECDA5A01B6250DE00DF109C /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		CED0DAA51B5D361900E8DCFB /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		CED0DAA61B5D361900E8DCFB /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FE1A72287844AEF8B9692253 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE27F3E51B464A1D009AF38B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAA61CC1B4E9F6F00B9DC73 /* Crashlytics.framework in Frameworks */,
+				CEAA61CB1B4E9F6F00B9DC73 /* Fabric.framework in Frameworks */,
+				375B18906B9FD568188F5EE1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE27F3FE1B464A1D009AF38B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32ECFA9B9F5AD48B21DBF405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA3C2F60B422FCCC5F8D6E73 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1845FA894B0E9B45F0D4D93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40ACE044150C9E8118037281 /* Pods.debug.xcconfig */,
+				FE1A72287844AEF8B9692253 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE27F3DF1B464A1D009AF38B = {
+			isa = PBXGroup;
+			children = (
+				CEC524A81B4FD99D005A3F72 /* Podfile */,
+				CE27F3EA1B464A1D009AF38B /* My project */,
+				CE27F4041B464A1D009AF38B /* My projectTests */,
+				CE27F3E91B464A1D009AF38B /* Products */,
+				B1845FA894B0E9B45F0D4D93 /* Pods */,
+				32ECFA9B9F5AD48B21DBF405 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE27F3E91B464A1D009AF38B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE27F3E81B464A1D009AF38B /* My project.app */,
+				CE27F4011B464A1D009AF38B /* My projectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE27F3EA1B464A1D009AF38B /* My project */ = {
+			isa = PBXGroup;
+			children = (
+				CED0DAA41B5D1E4A00E8DCFB /* fonts */,
+				CEC524A31B4FD5CF005A3F72 /* Main.storyboard */,
+				CEB561591B6899D500FEBA6F /* MakeImagesManager.h */,
+				CEB5615A1B6899D500FEBA6F /* MakeImagesManager.m */,
+				CE27F3F21B464A1D009AF38B /* ViewController.h */,
+				CE27F3F31B464A1D009AF38B /* ViewController.m */,
+				CEA95D871B5FB6E100A3F187 /* MainMenuViewController.h */,
+				CEA95D881B5FB6E100A3F187 /* MainMenuViewController.m */,
+				CECDA59F1B6250DE00DF109C /* EditViewController.h */,
+				CECDA5A01B6250DE00DF109C /* EditViewController.m */,
+				CEA71BB01B6644D1007B7046 /* CardsViewController.h */,
+				CEA71BB11B6644D1007B7046 /* CardsViewController.m */,
+				CEA71BB31B666469007B7046 /* OrderViewController.h */,
+				CEA71BB41B666469007B7046 /* OrderViewController.m */,
+				CE8F5A531B4D25CA008D8A52 /* MySingleton.h */,
+				CE8F5A541B4D25CA008D8A52 /* MySingleton.m */,
+				CE27F3EF1B464A1D009AF38B /* AppDelegate.h */,
+				CE27F3F01B464A1D009AF38B /* AppDelegate.m */,
+				CE48701A1B4AA93800C5D0C6 /* MenuViewController.h */,
+				CE48701B1B4AA93800C5D0C6 /* MenuViewController.m */,
+				CE27F3F81B464A1D009AF38B /* Images.xcassets */,
+				CE27F3FA1B464A1D009AF38B /* LaunchScreen.xib */,
+				CE27F3EB1B464A1D009AF38B /* Supporting Files */,
+			);
+			path = "My project";
+			sourceTree = "<group>";
+		};
+		CE27F3EB1B464A1D009AF38B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE27F3EC1B464A1D009AF38B /* Info.plist */,
+				CEAA61C91B4E9F6F00B9DC73 /* Fabric.framework */,
+				CEAA61CA1B4E9F6F00B9DC73 /* Crashlytics.framework */,
+				CE27F3ED1B464A1D009AF38B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE27F4041B464A1D009AF38B /* My projectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE27F4071B464A1D009AF38B /* My_projectTests.m */,
+				CE27F4051B464A1D009AF38B /* Supporting Files */,
+			);
+			path = "My projectTests";
+			sourceTree = "<group>";
+		};
+		CE27F4051B464A1D009AF38B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE27F4061B464A1D009AF38B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEAF9B721B69FDEF0087531B /* ubuntu-font-family-0.80 */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF9B731B69FDEF0087531B /* CONTRIBUTING.txt */,
+				CEAF9B741B69FDEF0087531B /* copyright.txt */,
+				CEAF9B751B69FDEF0087531B /* FONTLOG.txt */,
+				CEAF9B761B69FDEF0087531B /* LICENCE-FAQ.txt */,
+				CEAF9B771B69FDEF0087531B /* LICENCE.txt */,
+				CEAF9B781B69FDEF0087531B /* README.txt */,
+				CEAF9B791B69FDEF0087531B /* TRADEMARKS.txt */,
+				CEAF9B7A1B69FDEF0087531B /* Ubuntu-B.ttf */,
+				CEAF9B7B1B69FDEF0087531B /* Ubuntu-BI.ttf */,
+				CEAF9B7C1B69FDEF0087531B /* Ubuntu-C.ttf */,
+				CEAF9B7D1B69FDEF0087531B /* Ubuntu-L.ttf */,
+				CEAF9B7E1B69FDEF0087531B /* Ubuntu-LI.ttf */,
+				CEAF9B7F1B69FDEF0087531B /* Ubuntu-M.ttf */,
+				CEAF9B801B69FDEF0087531B /* Ubuntu-MI.ttf */,
+				CEAF9B811B69FDF00087531B /* Ubuntu-R.ttf */,
+				CEAF9B821B69FDF00087531B /* Ubuntu-RI.ttf */,
+				CEAF9B831B69FDF00087531B /* UbuntuMono-B.ttf */,
+				CEAF9B841B69FDF00087531B /* UbuntuMono-BI.ttf */,
+				CEAF9B851B69FDF00087531B /* UbuntuMono-R.ttf */,
+				CEAF9B861B69FDF00087531B /* UbuntuMono-RI.ttf */,
+			);
+			name = "ubuntu-font-family-0.80";
+			path = "Fonts/ubuntu-font-family-0.80";
+			sourceTree = SOURCE_ROOT;
+		};
+		CEAF9B9B1B6A158E0087531B /* apple_garamond */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF9B9C1B6A158E0087531B /* AppleGaramond-Bold.ttf */,
+				CEAF9B9D1B6A158E0087531B /* AppleGaramond-BoldItalic.ttf */,
+				CEAF9B9E1B6A158E0087531B /* AppleGaramond-Italic.ttf */,
+				CEAF9B9F1B6A158E0087531B /* AppleGaramond-Light.ttf */,
+				CEAF9BA01B6A158E0087531B /* AppleGaramond-LightItalic.ttf */,
+				CEAF9BA11B6A158E0087531B /* AppleGaramond.ttf */,
+			);
+			name = apple_garamond;
+			path = Fonts/apple_garamond;
+			sourceTree = SOURCE_ROOT;
+		};
+		CEB8C67E1B6B52DD00C12F0E /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				CEB8C6811B6B537400C12F0E /* Lato-MediumItalic.ttf */,
+				CEB8C67C1B6B51B600C12F0E /* Lato-Regular.ttf */,
+				CEB8C67F1B6B52FE00C12F0E /* Lato-Light.ttf */,
+			);
+			name = Lato;
+			sourceTree = "<group>";
+		};
+		CED0DAA41B5D1E4A00E8DCFB /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CEB8C6831B6B846500C12F0E /* metapro-normal.otf */,
+				CEB8C67E1B6B52DD00C12F0E /* Lato */,
+				CEB8C67A1B6B4E1600C12F0E /* Nautilus.otf */,
+				CEAF9BAC1B6A48BA0087531B /* Bookos.ttf */,
+				CEAF9BAD1B6A48BA0087531B /* Grande Oldstyle.ttf */,
+				CEAF9BAA1B6A1BFF0087531B /* Adobe Caslon Italic Swash.ttf */,
+				CEAF9BA81B6A19FE0087531B /* caslon.ttf */,
+				CEAF9B9B1B6A158E0087531B /* apple_garamond */,
+				CEAF9B721B69FDEF0087531B /* ubuntu-font-family-0.80 */,
+				CEAF9B701B69FD980087531B /* DIN.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE27F3E71B464A1D009AF38B /* My project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE27F40B1B464A1D009AF38B /* Build configuration list for PBXNativeTarget "My project" */;
+			buildPhases = (
+				A5756DFE3B9E844512E7E6B3 /* Check Pods Manifest.lock */,
+				CE27F3E41B464A1D009AF38B /* Sources */,
+				CE27F3E51B464A1D009AF38B /* Frameworks */,
+				CE27F3E61B464A1D009AF38B /* Resources */,
+				CEAA61C81B4E9EA800B9DC73 /* Run Script */,
+				8203BCBE7F12393FF5625730 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My project";
+			productName = "My project";
+			productReference = CE27F3E81B464A1D009AF38B /* My project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE27F4001B464A1D009AF38B /* My projectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE27F40E1B464A1D009AF38B /* Build configuration list for PBXNativeTarget "My projectTests" */;
+			buildPhases = (
+				CE27F3FD1B464A1D009AF38B /* Sources */,
+				CE27F3FE1B464A1D009AF38B /* Frameworks */,
+				CE27F3FF1B464A1D009AF38B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE27F4031B464A1D009AF38B /* PBXTargetDependency */,
+			);
+			name = "My projectTests";
+			productName = "My projectTests";
+			productReference = CE27F4011B464A1D009AF38B /* My projectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE27F3E01B464A1D009AF38B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CE27F3E71B464A1D009AF38B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CE27F4001B464A1D009AF38B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CE27F3E71B464A1D009AF38B;
+					};
+				};
+			};
+			buildConfigurationList = CE27F3E31B464A1D009AF38B /* Build configuration list for PBXProject "My project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = CE27F3DF1B464A1D009AF38B;
+			productRefGroup = CE27F3E91B464A1D009AF38B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE27F3E71B464A1D009AF38B /* My project */,
+				CE27F4001B464A1D009AF38B /* My projectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE27F3E61B464A1D009AF38B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB8C67B1B6B4E1600C12F0E /* Nautilus.otf in Resources */,
+				CEAF9B8B1B69FDF00087531B /* LICENCE.txt in Resources */,
+				CEAF9B711B69FD980087531B /* DIN.ttf in Resources */,
+				CEAF9B971B69FDF00087531B /* UbuntuMono-B.ttf in Resources */,
+				CEAF9B891B69FDF00087531B /* FONTLOG.txt in Resources */,
+				CEAF9B8F1B69FDF00087531B /* Ubuntu-BI.ttf in Resources */,
+				CEC524A51B4FD5CF005A3F72 /* Main.storyboard in Resources */,
+				CEAF9B991B69FDF00087531B /* UbuntuMono-R.ttf in Resources */,
+				CEAF9B8C1B69FDF00087531B /* README.txt in Resources */,
+				CEB8C67D1B6B51B600C12F0E /* Lato-Regular.ttf in Resources */,
+				CEB8C6801B6B52FE00C12F0E /* Lato-Light.ttf in Resources */,
+				CEAF9BA91B6A19FE0087531B /* caslon.ttf in Resources */,
+				CEAF9BA41B6A158E0087531B /* AppleGaramond-Italic.ttf in Resources */,
+				CEAF9B911B69FDF00087531B /* Ubuntu-L.ttf in Resources */,
+				CE27F3FC1B464A1D009AF38B /* LaunchScreen.xib in Resources */,
+				CEAF9B8E1B69FDF00087531B /* Ubuntu-B.ttf in Resources */,
+				CEAF9BA71B6A158E0087531B /* AppleGaramond.ttf in Resources */,
+				CEAF9BAE1B6A48BA0087531B /* Bookos.ttf in Resources */,
+				CEAF9B931B69FDF00087531B /* Ubuntu-M.ttf in Resources */,
+				CEB8C6821B6B537400C12F0E /* Lato-MediumItalic.ttf in Resources */,
+				CEAF9B8D1B69FDF00087531B /* TRADEMARKS.txt in Resources */,
+				CEAF9BAB1B6A1BFF0087531B /* Adobe Caslon Italic Swash.ttf in Resources */,
+				CEAF9BA31B6A158E0087531B /* AppleGaramond-BoldItalic.ttf in Resources */,
+				CEAF9B871B69FDF00087531B /* CONTRIBUTING.txt in Resources */,
+				CEAF9B951B69FDF00087531B /* Ubuntu-R.ttf in Resources */,
+				CEAF9B8A1B69FDF00087531B /* LICENCE-FAQ.txt in Resources */,
+				CEAF9B881B69FDF00087531B /* copyright.txt in Resources */,
+				CEAF9B9A1B69FDF00087531B /* UbuntuMono-RI.ttf in Resources */,
+				CE27F3F91B464A1D009AF38B /* Images.xcassets in Resources */,
+				CEAF9B961B69FDF00087531B /* Ubuntu-RI.ttf in Resources */,
+				CEAF9B941B69FDF00087531B /* Ubuntu-MI.ttf in Resources */,
+				CEAF9BA21B6A158E0087531B /* AppleGaramond-Bold.ttf in Resources */,
+				CEAF9BAF1B6A48BA0087531B /* Grande Oldstyle.ttf in Resources */,
+				CEAF9B921B69FDF00087531B /* Ubuntu-LI.ttf in Resources */,
+				CEAF9B901B69FDF00087531B /* Ubuntu-C.ttf in Resources */,
+				CEAF9BA61B6A158E0087531B /* AppleGaramond-LightItalic.ttf in Resources */,
+				CEAF9B981B69FDF00087531B /* UbuntuMono-BI.ttf in Resources */,
+				CEB8C6841B6B846500C12F0E /* metapro-normal.otf in Resources */,
+				CEAF9BA51B6A158E0087531B /* AppleGaramond-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE27F3FF1B464A1D009AF38B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8203BCBE7F12393FF5625730 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5756DFE3B9E844512E7E6B3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEAA61C81B4E9EA800B9DC73 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 857ee50fd208af6b7d1b58dad403f35a624b1ffb 519ff7953927289ca00377d8d763af3dd0ea16f0e2748683075177447f2ce67e";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE27F3E41B464A1D009AF38B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8F5A551B4D25CA008D8A52 /* MySingleton.m in Sources */,
+				CE27F3F41B464A1D009AF38B /* ViewController.m in Sources */,
+				CE27F3F11B464A1D009AF38B /* AppDelegate.m in Sources */,
+				CECDA5A11B6250DE00DF109C /* EditViewController.m in Sources */,
+				CEA95D891B5FB6E100A3F187 /* MainMenuViewController.m in Sources */,
+				CE27F3EE1B464A1D009AF38B /* main.m in Sources */,
+				CEA71BB51B666469007B7046 /* OrderViewController.m in Sources */,
+				CE48701C1B4AA93800C5D0C6 /* MenuViewController.m in Sources */,
+				CEB5615B1B6899D500FEBA6F /* MakeImagesManager.m in Sources */,
+				CEA71BB21B6644D1007B7046 /* CardsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE27F3FD1B464A1D009AF38B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE27F4081B464A1D009AF38B /* My_projectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE27F4031B464A1D009AF38B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE27F3E71B464A1D009AF38B /* My project */;
+			targetProxy = CE27F4021B464A1D009AF38B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE27F3FA1B464A1D009AF38B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE27F3FB1B464A1D009AF38B /* Base */,
+				CED0DAA61B5D361900E8DCFB /* ru */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		CEC524A31B4FD5CF005A3F72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC524A41B4FD5CF005A3F72 /* Base */,
+				CED0DAA51B5D361900E8DCFB /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE27F4091B464A1D009AF38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE27F40A1B464A1D009AF38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE27F40C1B464A1D009AF38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40ACE044150C9E8118037281 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "My project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "032dbdf0-13ff-498d-9871-c7cb282af389";
+			};
+			name = Debug;
+		};
+		CE27F40D1B464A1D009AF38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE1A72287844AEF8B9692253 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "My project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "032dbdf0-13ff-498d-9871-c7cb282af389";
+			};
+			name = Release;
+		};
+		CE27F40F1B464A1D009AF38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "My projectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My project.app/My project";
+			};
+			name = Debug;
+		};
+		CE27F4101B464A1D009AF38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "My projectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My project.app/My project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE27F3E31B464A1D009AF38B /* Build configuration list for PBXProject "My project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE27F4091B464A1D009AF38B /* Debug */,
+				CE27F40A1B464A1D009AF38B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE27F40B1B464A1D009AF38B /* Build configuration list for PBXNativeTarget "My project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE27F40C1B464A1D009AF38B /* Debug */,
+				CE27F40D1B464A1D009AF38B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE27F40E1B464A1D009AF38B /* Build configuration list for PBXNativeTarget "My projectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE27F40F1B464A1D009AF38B /* Debug */,
+				CE27F4101B464A1D009AF38B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE27F3E01B464A1D009AF38B /* Project object */;
+}
